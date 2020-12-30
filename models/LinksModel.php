@@ -18,7 +18,7 @@
 
 		public function __construct()
 		{
-			$this->links = array("home", "login", "categories", "product-list", "product-detail");
+			$this->links = array("home", "login", "categories", "product-list", "product-detail", "cart");
 		}
 
 		public function getModule($link): string

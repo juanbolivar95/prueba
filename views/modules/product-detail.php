@@ -2,7 +2,7 @@
 	/**
 	 *
 	 * @About:
-	 * @File:        home.php
+	 * @File:        product-detail.php
 	 * @Date:        12/29/20
 	 * @Version:     prueba 1.0
 	 * @Developer:   Juan David Bolívar. (judaob95@hotmail.com)
@@ -11,15 +11,15 @@
 
 	namespace Tissini\Views;
 
-	use Tissini\Controllers\HomeController;
+	use Tissini\Controllers\ProductsController;
 ?>
 
 <div class="container mt-5">
-	<div class="row">
+	<div class="row justify-content-center">
 		<?php
-			$home = new HomeController();
+			$ctrl = new ProductsController();
 
-			echo $home->getCategories();
+			$ctrl->getProduct($_GET['id']);
 		?>
 	</div>
 </div>

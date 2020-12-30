@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="643c2ce8-9976-4bb9-9542-a6beffe84a64" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/views/assets/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/BaseController.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/BaseController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/ProductsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/ProductsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/LinksModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/LinksModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/ProductsModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/ProductsModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/includes/menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/includes/menu.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +75,7 @@
       <updated>1609263818214</updated>
       <workItem from="1609263821394" duration="2341000" />
       <workItem from="1609266347256" duration="4203000" />
-      <workItem from="1609272785293" duration="5015000" />
+      <workItem from="1609272785293" duration="9579000" />
     </task>
     <servers />
   </component>

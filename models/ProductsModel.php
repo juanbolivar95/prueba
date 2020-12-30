@@ -26,8 +26,13 @@
 			$this->db = new CrudDB();
 		}
 
-		public function getProducts($cat)
+		public function getProducts($cat): object
 		{
 			return $this->db->query("SELECT * FROM products WHERE id_cat = ".$cat);
+		}
+
+		public function getProductDetail($id): object
+		{
+			return $this->db->query("SELECT * FROM products WHERE id_product = ".$id);
 		}
 	}

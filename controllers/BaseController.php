@@ -29,7 +29,7 @@
 				if (isset($_GET['view'])) {
 					$link = $_GET['view'];
 				} else {
-					$link = "dashboard";
+					$link = "home";
 				}
 			} else {
 				if (isset($_GET['view'])) {
